@@ -16,7 +16,7 @@ The code was tested with python>=3.7 & PyTorch>=1.3 & cuda>=10.0 <br>
 Minor change on the code if there is compatibility issue.
 
 ### Run the code
-Please go to example folder, download the cached coefficient matrixs and execute:
+Please go to example folder, download the cached coefficient matrices (three matrices) and execute:
 ```
 python3 run.py
 ```
