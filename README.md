@@ -11,6 +11,16 @@ ICCV 2021 (Oral)
 <img src='img/teaser.jpeg'>
 We propose a differentiable framework to estimate underwater scene geometry along with the time-varying water surface. The inputs to our model are a video sequence captured by a fixed camera. Dense correspondence from each frame to a world reference frame (selected from the input sequences) is pre-computed, ensuring the reconstruction is performed in a unified coordinate system. We feed the flow fields, together with initialized water surfaces and scene geometry (all are initialized as planar surfaces), into the framework, which incorporates ray casting, Snell’s law and multi-view triangulation. The gradients of the specially designed losses with respect to water surfaces and scene geometry are back-propagated, and all parameters are simultaneously optimized. The final result is a quality reconstruction of the underwater scene, along with an estimate of the time-varying water-air interface. The data shown here was captured in a public fountain environment.
 
+### Prerequisite
+The code was tested with python>=3.7 & PyTorch>=1.3 & cuda>=10.0 <br>
+Minor change on the code if there is compatibility issue.
+
+### Run the code
+Please go to example folder, download the cached coefficient matrixs and execute:
+```
+python3 run.py
+```
+
 ## Citation
 ```
 @inproceedings{xiong2021inthewild,
