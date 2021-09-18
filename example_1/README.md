@@ -1,3 +1,5 @@
 You need to download the pre-computed [coefficient matrices](https://drive.google.com/drive/folders/1kEDjan6VndIFiKvmaLsh23eeeUL_NKxd?usp=sharing), and put these three `.pt` files in the `parameters` folder.
 
 In the `reconstruction` folder, we have a matlab code to visualize the reconstructed underwater point clouds and dynamic water surfaces.
+
+The `video` folder includes the video in its original format (100 frames) used for the reconstruction.
